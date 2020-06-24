@@ -51,7 +51,7 @@ class Komentar extends Controller
             if($data->nama != '') {
                 $nama = $data->nama;
             } else {
-                $nama = "Sahabat Mib-Ade'Pitue";
+                $nama = "Sahabat ".config('app.name');
             }
             $email = $data->email;
             $judul= $request->judul;
@@ -65,7 +65,7 @@ class Komentar extends Controller
             Mail::send('feedback', $data_send, function($mail) use($email, $judul) {
                     $mail->to($email, 'no-reply')
                     ->subject($judul);
-                    $mail->from('mibadepituedp@gmail.com', "Mib-Ade'Pitue");        
+                    $mail->from('mibadepituedp@gmail.com', config('app.name'));        
                 });
                 if (Mail::failures()) {
                     return $arrayName = array('status' => 'error' , 'pesan' => 'Gagal menigirim email' );
