@@ -200,7 +200,7 @@ function detail() {
         $('#jkel').html(html.jkel);
         $('#alamat').html(html.alamat);
         $('#waktu').html(html.waktu);
-        $('#bidang').html("<b>"+html.bidang.nama+"</b>");
+        $('#bidang').html("<b>"+html.bidang+"</b>");
         $('#keluhan').html(html.pesan);
         $('#modal-detail').modal('show');
       }

@@ -114,7 +114,7 @@ Bidang Pemasaran Bisnis 1']);
     			'alamat' => $data->alamat,
     			'jkel'   => $jkel,
     			'pesan'  => $data->pesan,
-    			'waktu'  => $data->created_at->format('Y-m-d'),
+    			'waktu'  => $data->created_at->format('Y-m-d H:i:s'),
     			'bidang' => $data->bidang->nama
     		);
 
