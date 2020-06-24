@@ -100,9 +100,6 @@ Bidang Pemasaran Bisnis 1']);
     public function detail($id)
     {
     	$data = \App\Komentar::where('id', $id)->with('bidang:id,nama')->first();
-        return $data;
-// return $data->id;
-    	// return $data->created_at->format('Y-m-d');
     	if($data->jenis_kelamin == 'P'){
     		$jkel = 'Perempuan';
     	} else {
@@ -110,14 +107,14 @@ Bidang Pemasaran Bisnis 1']);
     	}
     	 $arrayName = 
     		array(
-                'id' =>$data->id,
-    			'nama' => $data->nama,
-    			'email' => $data->email,
-    			'nohp' => $data->nohp,
+                'id'     =>$data->id,
+    			'nama'   => $data->nama,
+    			'email'  => $data->email,
+    			'nohp'   => $data->nohp,
     			'alamat' => $data->alamat,
-    			'jkel' => $jkel,
-    			'pesan' => $data->pesan,
-    			'waktu' => $data->created_at->format('Y-m-d'),
+    			'jkel'   => $jkel,
+    			'pesan'  => $data->pesan,
+    			'waktu'  => $data->created_at->format('Y-m-d'),
     			'bidang' => $data->bidang->nama
     		);
 
