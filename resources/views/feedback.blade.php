@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Mib-Adepitue</title>
+    <title>{{config('app.name')}}</title>
     <style>
         /* -------------------------------------
             GLOBAL RESETS
@@ -309,7 +309,7 @@
                                                                     <hr>
                                                                     <center><p>{{$pesan}}</p></center>
                                                                     <ul>
-                                                                     <li>Email : mibadepituedp@gmail.com</li>
+                                                                     <li>Email : {{config('app.app_email')}}</li>
                                                                      <li>WhatsApp : 082344949505</li>
                                                                  </ul>
                                                                     <hr>
@@ -340,13 +340,13 @@
                     <table border="0" cellpadding="0" cellspacing="0">
                         <tr>
                             <td class="content-block">
-                                <span class="apple-link">Mib-Ade'Pitue</span>
+                                <span class="apple-link">{{config('app.name')}}</span>
                                 {{--<br> Don't like these emails? <a href="http://i.imgur.com/CScmqnj.gif">Unsubscribe</a>.--}}
                             </td>
                         </tr>
                         <tr>
                             <td class="content-block powered-by">
-                                Powered by <a href="http://medium.com/@kiddy.xyz">Mib-Ade'Pitue</a>.
+                                Powered by <a href="http://medium.com/@kiddy.xyz">{{config('app.name')}}</a>.
                             </td>
                         </tr>
                     </table>

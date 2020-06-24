@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Saran - Mib-Ade'Pitue</title>
+  <title>Saran - {{config('app.name')}}</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
@@ -33,7 +33,7 @@
 		<div class="jumbotron ">
   <h1 class="display-4">Komentar, Saran, Keluhan!</h1>
   <hr>
-<p>Alamat : BTN Antara Makassar | Email : mibadepituedp@gmail.com | No. Telp : 082344949505</p>
+<p>Alamat : Kabupaten Bone, Kecamatan Barebbo | Email : {{config('app.app_email')}} | No. Telp : 082344949555</p>
 </div>
 
 	<div class="card card-body">
