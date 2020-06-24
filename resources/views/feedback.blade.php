@@ -291,7 +291,7 @@
                             <table border="0" cellpadding="0" cellspacing="0">
                                 <tr>
                                     <td>
-                                        <center><h2>Mib-Ade'Pitue Notification</h2></center>
+                                        <center><h2>{{config('app.name')}} Notification</h2></center>
                                         <p>Hai {{$name}}</p>
 
                                         <table border="0" cellpadding="0" cellspacing="0">
