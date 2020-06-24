@@ -21,7 +21,7 @@ Kebutuhan :
 3. Setting Env Anda, file .env.example yang ada di dalam folder project Anda, rename file<blockquote> .env.example</blockquote>
  ubah menjadi <blockquote>.env</blockquote>
 
-4. Jalankan Perintah <blockquote>php artisan key:generate/<blockquote>
+4. Jalankan Perintah <blockquote>php artisan key:generate</blockquote>
 
 5. Edit env Anda , perhatikan format berikut :<blockquote>
 	DB_DATABASE=nama_db<br>
