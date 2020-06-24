@@ -2,7 +2,7 @@
 
 
 ## Informasi Aplikasi
-Aplikasi ini di buat Oleh Khaeruddin Asdar sebagai kordinator iptek 2019-2020 cek githubnya <a href="https://github.com/Khaeruddinasdar12">disini</a>
+Aplikasi ini di buat Oleh Khaeruddin Asdar
 1) Menggunakan Framework Laravel 6
 2) Menggunakan Mysql sebagai database
 3) Menggunakan Jquery dan yajra datatable (datatable serverside)
@@ -21,7 +21,7 @@ Kebutuhan :
 3. Setting Env Anda, file .env.example yang ada di dalam folder project Anda, rename file<blockquote> .env.example</blockquote>
  ubah menjadi <blockquote>.env</blockquote>
 
-4. Jalankan Perintah <blockquote>php artisan key:generate/<blockquote>
+4. Jalankan Perintah <blockquote>php artisan key:generate</blockquote>
 
 5. Edit env Anda , perhatikan format berikut :<blockquote>
 	DB_DATABASE=nama_db<br>
@@ -30,12 +30,13 @@ Kebutuhan :
     </blockquote>
 
 6. Karena aplikasi ini memiliki fitur send email, maka atur di env sebagai berikut :<blockquote>
-	MAIL_DRIVER=smtp<br>
+	MAIL_DRIVER=sendmail<br>
 	MAIL_HOST=smtp.gmail.com<br>
 	MAIL_PORT=465<br>
 	MAIL_USERNAME=gmail_anda<br>
 	MAIL_PASSWORD=password_gmail_anda<br>
 	MAIL_ENCRYPTION=ssl
+    APP_EMAIL=email_anda
     </blockquote>
 
 7. Pastikan email Anda tidak verifikasi 2 akun, dan less secure app access nya on.
@@ -44,7 +45,7 @@ Kebutuhan :
 10. Ketik <blockquote>localhost:8000</blockquote> di browser untuk halaman pelanggan
 11. untuk mengakses halaman admin, ketik <blockquote>localhost:8000/app/admin</blockquote> akan otomatis tersedia akun sebagai berikut
 	login dengan <blockquote>
-	email : angelica@gmail.com<br>
+	email : khaeruddinasdar12@gmail.com<br>
 	password : 12345678
         </blockquote>
 12. Selamat menikmati. 
