@@ -35,7 +35,7 @@ Kebutuhan :
 	MAIL_PORT=465<br>
 	MAIL_USERNAME=gmail_anda<br>
 	MAIL_PASSWORD=password_gmail_anda<br>
-	MAIL_ENCRYPTION=ssl
+	MAIL_ENCRYPTION=ssl<br>
     APP_EMAIL=email_anda
     </blockquote>
 
