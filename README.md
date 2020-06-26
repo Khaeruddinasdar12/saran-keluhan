@@ -35,8 +35,10 @@ Kebutuhan :
 	MAIL_PORT=465<br>
 	MAIL_USERNAME=gmail_anda<br>
 	MAIL_PASSWORD=password_gmail_anda<br>
-	MAIL_ENCRYPTION=ssl
-    APP_EMAIL=email_anda
+	MAIL_ENCRYPTION=ssl<br>
+    APP_EMAIL=email_anda<br>
+    ALAMAT=alamat_anda<br>
+    TELEPON=telp_anda
     </blockquote>
 
 7. Pastikan email Anda tidak verifikasi 2 akun, dan less secure app access nya on.

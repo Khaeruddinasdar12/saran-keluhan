@@ -33,7 +33,7 @@
 		<div class="jumbotron ">
   <h1 class="display-4">Komentar, Saran, Keluhan!</h1>
   <hr>
-<p>Alamat : Kabupaten Bone, Kecamatan Barebbo | Email : {{config('app.app_email')}} | No. Telp : 082344949555</p>
+<p>Alamat : {{config('app.alamat')}} | Email : {{config('app.app_email')}} | No. Telp : {{config('app.telp')}}</p>
 </div>
 
 	<div class="card card-body">
