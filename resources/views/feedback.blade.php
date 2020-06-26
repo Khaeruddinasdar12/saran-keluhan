@@ -310,7 +310,7 @@
                                                                     <center><p>{{$pesan}}</p></center>
                                                                     <ul>
                                                                      <li>Email : {{config('app.app_email')}}</li>
-                                                                     <li>WhatsApp : 082344949505</li>
+                                                                     <li>No. Telp : {{config('app.telp')}}</li>
                                                                  </ul>
                                                                     <hr>
                                                                    

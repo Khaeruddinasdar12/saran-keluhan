@@ -65,7 +65,7 @@ class Komentar extends Controller
             Mail::send('feedback', $data_send, function($mail) use($email, $judul) {
                     $mail->to($email, 'no-reply')
                     ->subject($judul);
-                    $mail->from('mibadepituedp@gmail.com', config('app.name'));        
+                    $mail->from('testermailapplication@gmail.com', config('app.name'));        
                 });
                 if (Mail::failures()) {
                     return $arrayName = array('status' => 'error' , 'pesan' => 'Gagal menigirim email' );
